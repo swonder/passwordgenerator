@@ -1,0 +1,23 @@
+<h2>Create a New Bookmark</h2>
+<form method="post" action="../bookmarks" >
+	<div>
+		<div><label for="url">Url: </label></div>
+		<div><input type="text" id="url" name="url" style="width: 400px;" /></div>
+	</div>
+	<div>
+		<div><label for="name">Name: </label></div>
+		<div><input type="text" id="name" name="name" /></div>
+	</div>
+	<div>
+		<div><label for="description">Description: </label></div>	
+		<div><textarea id="description" name="description"></textarea></div>
+	</div>
+	<div>
+		<div><label for="rating">Rating: </label></div>
+		<div><input type="number" id="rating" name="rating" min="1" max="5" /></div>
+	</div>
+	<div>
+		<div><input type="submit" name="submit" value="Submit" /></div>
+	</div>
+
+</form>

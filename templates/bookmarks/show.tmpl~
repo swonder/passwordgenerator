@@ -1,0 +1,4 @@
+<div>
+<div>{{ .Title }}</div>
+<div>{{ .Url }}</div>
+</div>
