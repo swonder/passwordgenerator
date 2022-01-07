@@ -1,4 +1,4 @@
-## Ways to run this program:
+## Ways to run this program
 To just run this project type `go run .` in a command prompt in the root folder of this project.
 
 To build an exectuable and run on Windows systems: `go build` in the root folder of this project. Then type in `passwordgenerator.exe`.
