@@ -5,7 +5,7 @@
 }
 
 #container {
-  width: 640px;
+  width: 1024px;
   height: auto;
   display:block;
   overflow:auto;
@@ -19,19 +19,19 @@
 }
 
 .body {
-  width: 595px;
+  width: 979px;
   float: left;
   border: 1px solid #CECECE;
   padding: 20px;
 }
 
 .formbox {
-  width: 595px;
+  width: 979px;
   float: left;
 }
 
 .passwordbox {
-  width: 595px;
+  width: 979px;
   float: left;
   height: auto;
   margin: 20px 0 0 0;
