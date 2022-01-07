@@ -3,26 +3,26 @@
 <html>
   <div id="container">
     <div class="header">
-      <h3>Password Generator v2.1</h3>
+      <h3>Password Generator v3</h3>
     </div>
     <div class="body">
       <div class="formbox">
         <form name="form1" method="POST" action="/">
           <div class="clear">
             <div class="leftformelem">Number of passwords to generate:</div>
-            <div class="rightformelem"><input type="text" id="number" name="number" value="{{.Number}}"/></div>
+            <div class="rightformelem"><input type="text" id="number" name="number" value="{{.NumberPasswords}}"/></div>
           </div>
            <div class="clear">
              <div class="leftformelem">Size of each password:</div>
-             <div class="rightformelem"><input type="text" id="size" name="size" value="{{.Size}}"/></div>
+             <div class="rightformelem"><input type="text" id="size" name="size" value="{{.PasswordSize}}"/></div>
            </div>
            <div class="clear">
              <div class="leftformelem">Include special characters:</div>
-             <div class="rightformelem"><input type="checkbox" name="specchars" {{.Specchars}} /></div>
+             <div class="rightformelem"><input type="checkbox" name="specchars" {{.SpecChars}} /></div>
            </div>
            <div class="clear">
              <div class="leftformelem">Include uppercase characters:</div>
-             <div class="rightformelem"><input type="checkbox" name="ucchars" {{.Ucchars}} /></div>
+             <div class="rightformelem"><input type="checkbox" name="ucchars" {{.UcChars}} /></div>
            </div>
            <div class="vspace20"></div>
            <div class="clear">
